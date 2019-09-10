@@ -75,8 +75,8 @@ public class ArmorStandTool extends JavaPlugin implements Listener {
             langConf.loadDefaults();
             languageAPI.registerLanguage(new Language(lang, langConf, configAPI));
 
-            inventoryAPI.registerItem("none", "toggle_button_off", new ItemStack(Material.ROSE_RED));
-            inventoryAPI.registerItem("none", "toggle_button_on", new ItemStack(Material.LIME_DYE));
+            inventoryAPI.registerItem("none", "toggle_button_off", new ItemStack(Material.INK_SACK, 1, (byte) 1));
+            inventoryAPI.registerItem("none", "toggle_button_on", new ItemStack(Material.INK_SACK, 1, (byte) 10));
 
             inventoryAPI.registerGuiWindow(new MainMenu(inventoryAPI));
             inventoryAPI.registerGuiWindow(new SettingsGui(inventoryAPI));
@@ -211,8 +211,8 @@ public class ArmorStandTool extends JavaPlugin implements Listener {
                     }
                     InventoryAPI inventoryAPI = wolfyUtilities.getInventoryAPI();
                     inventoryAPI.reset();
-                    inventoryAPI.registerItem("none", "toggle_button_off", new ItemStack(Material.ROSE_RED));
-                    inventoryAPI.registerItem("none", "toggle_button_on", new ItemStack(Material.LIME_DYE));
+                    inventoryAPI.registerItem("none", "toggle_button_off", new ItemStack(Material.INK_SACK, 1, (byte) 1));
+                    inventoryAPI.registerItem("none", "toggle_button_on", new ItemStack(Material.INK_SACK, 1, (byte) 10));
 
                     inventoryAPI.registerGuiWindow(new MainMenu(inventoryAPI));
                     inventoryAPI.registerGuiWindow(new SettingsGui(inventoryAPI));

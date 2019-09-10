@@ -12,6 +12,7 @@ import org.bukkit.inventory.Inventory;
 
 public class MainMenu extends GuiWindow {
 
+    @SuppressWarnings("unused")
     private int[] equipmentSlots = new int[]{8, 17, 26, 35, 44, 53};
 
     public MainMenu(InventoryAPI inventoryAPI) {
@@ -20,10 +21,10 @@ public class MainMenu extends GuiWindow {
 
     @Override
     public void onInit() {
-        createItem("base_plate", Material.STONE_PRESSURE_PLATE);
+        createItem("base_plate", Material.STONE_PLATE);
         createItem("arms", Material.STICK);
         createItem("small_stand", Material.CLAY_BALL);
-        createItem("no_gravity", Material.RAIL);
+        createItem("no_gravity", Material.RAILS);
         createItem("invisible", Material.POTION);
         createItem("display_name", Material.NAME_TAG);
         createItem("rotation_left_arm", Material.STICK);

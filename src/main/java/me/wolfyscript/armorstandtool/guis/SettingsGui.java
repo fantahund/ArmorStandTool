@@ -24,22 +24,22 @@ public class SettingsGui extends GuiWindow {
 
     @Override
     public void onInit() {
-        createItem("add_001", Material.CACTUS_GREEN);
-        createItem("add_01", Material.CACTUS_GREEN);
-        createItem("add_1", Material.CACTUS_GREEN);
-        createItem("add_1", Material.CACTUS_GREEN);
-        createItem("remove_001", Material.ROSE_RED);
-        createItem("remove_01", Material.ROSE_RED);
-        createItem("remove_1", Material.ROSE_RED);
-        createItem("x_pos", Material.DANDELION_YELLOW);
-        createItem("y_pos", Material.DANDELION_YELLOW);
-        createItem("z_pos", Material.DANDELION_YELLOW);
-        createItem("x_value", Material.DANDELION_YELLOW);
-        createItem("y_value", Material.DANDELION_YELLOW);
-        createItem("z_value", Material.DANDELION_YELLOW);
-        createItem("yaw", Material.DANDELION_YELLOW);
-        createItem("free_edit", Material.CYAN_DYE);
-        createItem("back", Material.MAGENTA_DYE);
+        createItem("add_001", Material.CACTUS);
+        createItem("add_01", Material.CACTUS);
+        createItem("add_1", Material.CACTUS);
+        createItem("add_1", Material.CACTUS);
+        createItem("remove_001", Material.RED_ROSE);
+        createItem("remove_01", Material.RED_ROSE);
+        createItem("remove_1", Material.RED_ROSE);
+        createItem("x_pos", Material.YELLOW_FLOWER);
+        createItem("y_pos", Material.YELLOW_FLOWER);
+        createItem("z_pos", Material.YELLOW_FLOWER);
+        createItem("x_value", Material.YELLOW_FLOWER);
+        createItem("y_value", Material.YELLOW_FLOWER);
+        createItem("z_value", Material.YELLOW_FLOWER);
+        createItem("yaw", Material.YELLOW_FLOWER);
+        createItem("free_edit", Material.ELYTRA);
+        createItem("back", Material.ARROW);
     }
 
     @EventHandler
